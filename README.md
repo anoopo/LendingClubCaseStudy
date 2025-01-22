@@ -17,7 +17,7 @@
 - **Conclusion 1:** Loans with a term of 60 months have a significantly higher risk of default compared to loans with a term of 36 months.
 - **Conclusion 2:**  The charge-off percentage steadily increases as loan grades decline, with Grade G loans showing the highest risk.
 - **Conclusion 3:**  Small business loans experience a significant jump in charge-off representation, raising concerns about the heightened default risk associated with this sector.
-- **Conclusion 4:** Borrowers with 1 or more public record bankruptcies have a significantly higher charged-off percentage, making it a key risk factor
+- **Conclusion 4:** Borrowers with 1 or more public record bankruptcies have a significantly higher charged-off percentage, making it a key risk factor.
 
 
 ## Technologies Used
