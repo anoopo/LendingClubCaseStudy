@@ -1,8 +1,6 @@
-# LendingClub Case Study
-> Project Overview
+# Lending Club Case Study - Exploratory Data Analysis
 
-This project focuses on analyzing the historical data about the loan remittance from a company which is the largest online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures. Different Exploratory Data Analysis (EDA) techniquest are used to identify the patterns and factors that may contribute the defaulting of the loans. This will help the company in minimizing the credit risk and improve the loan portfolio quality.improving loan portfolio quality.
-
+> This project conducts an Exploratory Data Analysis (EDA) on the Lending Club loan dataset to identify factors that contribute to loan defaults. The goal is to help Lending Club make better loan approval decisions and reduce credit loss.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -10,41 +8,30 @@ This project focuses on analyzing the historical data about the loan remittance 
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-
 ## General Information
-> Objectives
-* Understand the key drivers of loan default using consumer and loan attributes.
-* Perform EDA analysis to identify trends in loan distribution, trends and default risks.
-* Use insights to guide better decision-making in loan sanctioning.
-
-> Key Features
-* Data Cleaning and Filtering: Handling missing values, standardization, and filtering.
-* Univariate and Bivariate Analysis: Exploring individual and relationship-based trends in the dataset.
-* Visualization: Clear and concise plots to support insights.
+- **Background:** Lending Club is a leading online loan marketplace that connects borrowers with investors. The company faces the challenge of identifying risky loan applicants to minimize credit loss.
+- **Business Problem:** The project aims to identify the driving factors behind loan defaults, enabling Lending Club to improve its risk assessment and loan approval processes. This will help reduce financial losses caused by borrowers who default on their loans.
+- **Dataset:** The project uses the Lending Club loan dataset, which contains information about loan applications, borrower demographics, loan characteristics, and loan performance. It is a publicly available dataset.
 
 ## Conclusions
-Risks for loan defaulting based on the Loan Parameters:
-    - Higher loan amounts tend to have higher default rates, especially for the amounts above $20K
-    - Higher the term, chances of being defaulted are high
-    - Loans taken for the debt consolidation has the history of being defaulted
-Risks for loan defaulting based on the Customer parameters:
-    - Customers who are on RENT and taking loan for Debt Consolidation seems to be defaulting the loan at a higher rate
-    - Enquiry on public bankruptcy of the customer would be highly beneficial since this seem to have direct connection with the chances of being defaulted
+- **Conclusion 1:** Loans with a term of 60 months have a significantly higher risk of default compared to loans with a term of 36 months.
+- **Conclusion 2:**  The charge-off percentage steadily increases as loan grades decline, with Grade G loans showing the highest risk.
+- **Conclusion 3:**  Small business loans experience a significant jump in charge-off representation, raising concerns about the heightened default risk associated with this sector.
+- **Conclusion 4:** Borrowers with 1 or more public record bankruptcies have a significantly higher charged-off percentage, making it a key risk factor.
 
 
 ## Technologies Used
-- Python 3.11.11
-- Pandas 2.2.2
-- Matplotlib 3.10.0
-- Seaborn 0.13.2
+- Python - version 3.x
+- pandas - version 1.x
+- numpy - version 1.x
+- matplotlib - version 3.x
+- seaborn - version 0.x
 
 ## Acknowledgements
-
-- The project references insights and inferences from live presentation given in Upgrad portal
-- The project reference course materieals from upGrad curricculum
-- Various youtube videos on EDA, Pandas and Plot Visualisation.
-- ChatGPT - single place to look for the syntax and functions
+- This project was inspired by the need to understand loan default risk and improve lending practices.
+- The dataset used in this project is publicly available from Lending Club. 
+- The project draws upon the concepts and methodologies of exploratory data analysis and statistical analysis.
 
 
 ## Contact
-Created by [@anoopo] and [@githubusername] - feel free to contact us!
+Created by apoorvakash and anoopo
